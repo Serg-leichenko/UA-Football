@@ -9,7 +9,7 @@ const slider = tns({
   mouseDrag: true,
   lazyload: true,
   controlsContainer: '#customize-controls',
-  // navContainer: '.slider-dots'
+  navContainer: '.slider-dots'
 });
 
 const sliderTop = tns({

@@ -228,7 +228,7 @@ li {
             font-weight: 400; }
       .news .news-block__slider .slider-dots {
         position: absolute;
-        top: 40%;
+        top: 47%;
         left: 29%;
         z-index: 1;
         display: flex; }
