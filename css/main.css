@@ -592,6 +592,12 @@ li {
 
   .footer .author .law {
     width: 100%;
-    margin-left: 0; } }
+    margin-left: 0; }
+
+  .news .news-block__slider .controls {
+    width: 90%; }
+
+  .news .news-block .news-block__new {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
