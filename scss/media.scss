@@ -1,0 +1,152 @@
+@media (max-width: 1053px) {
+  .header .header-block {
+    height: 60px;
+    .menu li {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    .champ {
+      width: 100%;
+      justify-content: center;
+      .champ-block:nth-child(2) {
+        margin: 0 36px 0 40px;
+      }
+      .champ-block:nth-child(4) {
+        margin-left: 40px;
+      }
+    }
+    .author .law .store p {
+      margin-right: 80px;
+    }
+  }
+}
+
+@media (max-width: 901px) {
+  .footer .author .law .store p {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 842px) {
+  .news .news-block {
+    flex-direction: column;
+    &__slider {
+      margin: 0 auto;
+      width: 90%;
+    }
+    .news-block__new {
+      margin: 0 auto;
+      width: 70%;
+      padding-bottom: 30px;
+      &_football {
+        height: auto;
+        .all-news {
+          padding-bottom: 15px;
+        }
+      }
+    }
+  }
+  .footer .champ {
+    flex-direction: column;
+    .champ-block:nth-child(2) {
+      margin: auto;
+    }
+    .champ-block:nth-child(3) {
+      margin-top: 20px;
+    }
+    .champ-block:nth-child(4) {
+      margin: auto;
+    }
+    .champ-block {
+      margin: auto;
+      margin-bottom: 20px;
+      .title {
+        text-align: center;
+      }
+      .footer-menu .list-items {
+        text-align: center;
+      }
+    }
+  }
+  .footer .author .law {
+    flex-direction: column;
+    .logo-text {
+      width: 100%;
+      text-align: center;
+    }
+    .store {
+      display: none;
+    }
+  }
+  .footer .social .project {
+    flex-wrap: wrap;
+    width: 40%;
+    li:nth-child(4) {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .header .header-block {
+    position: relative;
+    height: auto;
+    .block__logo-nav {
+      .burger {
+        display: block;
+      }
+      .menu {
+        display: none;
+        flex-direction: column;
+        background: $black;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        padding: 0 25px;
+        li {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  .footer .social {
+    flex-direction: column;
+    .project {
+      width: 100%;
+      justify-content: center;
+      margin: 20px 0;
+      li:nth-child(4) {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .list__items {
+    display: none;
+  }
+  .news .news-block .selection .select-block {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer .social .policy {
+    .mob-vers {
+      display: none;
+    }
+    .pc-vers {
+      display: block;
+    }
+  }
+  .news .news-block__slider {
+    width: 100%;
+  }
+  .footer .author .law {
+    width: 100%;
+    margin-left: 0;
+  }
+}
